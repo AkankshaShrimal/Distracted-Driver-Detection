@@ -68,13 +68,13 @@ Follwing are the results of the project:
                                     b. Results LDA reduced data
                                     c. Results ROC of LDA on PCA reduced data
          
-<div align="center"><img src="plots/results_pca.png"/></div>
+<div align="center"><img src="plots/results_pca.png" height='125px'/></div>
 <div align="center"><img src="plots/results_lda.png"/></div>
 <div align="center"><img src="plots/results_lda_over_pca.png"/></div>
 
 
-        Fig 5. CNN architecture used 
-<div align="center"><img src="plots/CNN_model.png"/></div>
+                         Fig 5. CNN architecture used 
+<div align="center"><img src="plots/CNN_model.jpeg"/></div>
 
 
         Fig 6. Comparing between deep learning classifiers with Accuracy/Recall/Precision/F1 score
@@ -83,7 +83,8 @@ Follwing are the results of the project:
                                     c. ResNet-101 [Stratery-2 : Retrain last few layers]
 <div align="center"><img src="plots/results_deep_learning_classifiers.png"/></div>
 
-Fig 6. ResNet-101 performance measured using Class Activation Maps
+
+                    Fig 6. ResNet-101 performance measured using Class Activation Maps
 <div align="center"><img src="plots/class_activation_map.png"/></div>
 
 ## Interpretation of Results
