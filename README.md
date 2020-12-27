@@ -100,9 +100,9 @@ best metric scores because of the rich features and kernel tricks to classify da
 ## References
 
 1. H. Eraqi, Y. Abouelnaga, M. Saad, and M. Moustafa, “Driver Distraction Identification with an Ensemble of Convolutional Neural Networks”, Journal of Advanced Transportation 2019, 1-12; doi: 10.1155/2019/4125865
-2. https://snappishproductions.com/blog/2018/01/03/class-activation-mapping-in-pytorch.html.html
-3. Distracted Driver Detection using Deep Learning[https://medium.com/@sam.bell_43711/distracted-driver-detection- using-deep-learning-ecc7216ae8d0]
-4. ML techniques for Distacted Driver Detection[http://cs229.stanford.edu/proj2019spr/report/24.pdf] 
+2. Class Activation maps[https://snappishproductions.com/blog/2018/01/03/class-activation-mapping-in-pytorch.html.html]
+3. [Distracted Driver Detection using Deep Learning](https://medium.com/@sam.bell_43711/distracted-driver-detection-using-deep-learning-ecc7216ae8d0)
+4. [ML techniques for Distacted Driver Detection](http://cs229.stanford.edu/proj2019spr/report/24.pdf)
 
 ## Project Team Members
 
