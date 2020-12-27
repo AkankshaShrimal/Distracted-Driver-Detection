@@ -66,7 +66,7 @@ Follwing are the results of the project:
      Fig 5. Comparing various classifiers with different feature sets over Accuracy/Recall/Precision/F1 score
                                     a. Results PCA reduced data
                                     b. Results LDA reduced data
-                                    c. Results ROC of LDA on PCA reduced data
+                                    c. Results LDA on PCA reduced data
          
 <div align="center"><img src="plots/results_pca.png" height='200px'/></div>
 <div align="center"><img src="plots/results_lda.png" height='200px'/></div>
@@ -81,11 +81,11 @@ Follwing are the results of the project:
                                     a. CNN
                                     b. ResNet-101 [Stratery-1 : Retrain only last layer]
                                     c. ResNet-101 [Stratery-2 : Retrain last few layers]
-<div align="center"><img src="plots/results_deep_learning_classifiers.png" height='200px'/></div>
+<div align="center"><img src="plots/results_deep_learning_classifiers.png" height='150px'/></div>
 
 
                     Fig 6. ResNet-101 performance measured using Class Activation Maps
-<div align="center"><img src="plots/class_activation_map.png"/></div>
+<div align="center"><img src="plots/class_activation_map.png" height='150px'/></div>
 
 ## Interpretation of Results
 
