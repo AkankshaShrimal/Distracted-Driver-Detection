@@ -10,14 +10,26 @@ Driving a car is a complex task, and it requires complete attention. Distracted 
 
 Project Poster can be found in [ML-Poster-Final.pdf](ML_Project_End_Term_PPT.pdf).
 
-Project Report can be found in [ML_Project_EndTerm_Report.pdf](SML_Project_EndTerm_Report.pdf).
+Project Report can be found in [ML_Project_EndTerm_Report.pdf](ML_Project_End_Term_Report.pdf).
 
 ## Dataset
+The dataset contains 22424 driver images in total download from [kaggle](https://www.kaggle.com/c/state-farm-distracted-driver-detection/data). The dataset contains coloured images of size 640*480 pixels which are resized to 64*64 coloured images for training and testing pusposes.
+Stratified splitting is used to split the dataset into 80:10 Training-Testing ratio. The training dataset is further split into 90:10 Training-Validation set.
 
-<div align="center"><img src="plots/dataset_vis.png" height='150px'/></div>
+The 10 classes to predict are:
+- Safe driving 
+- Texting(right hand) 
+- Talking on the phone (right hand)
+- Texting (left hand) 
+- Talking on the phone (left hand)
+- Operating the radio 
+- Drinking 
+- Reaching behind 
+- Hair and makeup  
+- Talking to passenger(s). 
 
-The dataset consists of 27,558 cell images; 13,780 images of infected and uninfected cells each and is taken from the official [NIH Website](https://ceb.nlm.nih.gov/repositories/malaria-datasets/).
-You may also download it from [kaggle](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria).
+<div align="center"><img src="plots/classes_imgs.jpg" height='150px'/></div>
+
 
 ## Algorithm Used
 
