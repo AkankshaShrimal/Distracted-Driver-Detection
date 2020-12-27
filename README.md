@@ -48,7 +48,7 @@ Follwing are the results of the project:
    <div align="center"><img src="plots/Final_Feature_extraction.png" height='450px'/></div>                                         
 
                                 Fig 2. Variance of PCA projected over min-max normalized data
-<div align="center"><img src="plots/PCA_variance_graphs.png" height='700px'/></div>
+<div align="center"><img src="plots/PCA_variance_graphs.png" height='500px'/></div>
 
                                 Fig 3 Receiver Operating Characteristic (ROC) Curves
                                     a. ROC of PCA reduced data
@@ -60,20 +60,20 @@ Follwing are the results of the project:
     <img src="plots/roc_over_lda_over_pca.png" height='225px'/>
 </div>
 
-        Fig 4. Optimal Parameters of classifiers after grid search
+                Fig 4. Optimal Parameters of classifiers after grid search
 <div align="center"><img src="plots/optimal_param.png"/></div>
 
-        Fig 5. Comparing various classifiers with different feature sets over Accuracy/Recall/Precision/F1 score
+     Fig 5. Comparing various classifiers with different feature sets over Accuracy/Recall/Precision/F1 score
                                     a. Results PCA reduced data
                                     b. Results LDA reduced data
                                     c. Results ROC of LDA on PCA reduced data
          
-<div align="center"><img src="plots/results_pca.png" height='125px'/></div>
+<div align="center"><img src="plots/results_pca.png" height='200px'/></div>
 <div align="center"><img src="plots/results_lda.png"/></div>
 <div align="center"><img src="plots/results_lda_over_pca.png"/></div>
 
 
-                         Fig 5. CNN architecture used 
+                                Fig 5. CNN architecture 
 <div align="center"><img src="plots/CNN_model.jpeg"/></div>
 
 
