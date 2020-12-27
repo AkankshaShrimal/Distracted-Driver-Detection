@@ -5,6 +5,7 @@
 This project is done as a part of `Machine Learning` Course.
 
 Driving a car is a complex task, and it requires complete attention. Distracted driving is any activity that takes away the driver’s attention from the road. Approximately 1.35 million people die each year as a result of road traffic crashes.
+
 In this project our aim is to identify whether a driver is driving safely or indulged in distraction activities like texting, drinking etc.We show an in breadth & depth analysis of various features like **HOG, LBP, SURF, KAZE, pixel values** with feature reduction techniques **PCA, LDA** along with normalization techniques such as **min-max** over different classifiers such as **SVM XGBoost, Bagging, AdaBoost, K-Nearest Neighbors, Decision Trees** and compare their performance by tuning different hyperparameters. We evaluate the performance of these classifiers on metrics such as **Accuracy, Precision, Recall, F1 score and ROC**.
 
 Project Poster can be found in [ML-Poster-Final.pdf](ML_Project_End_Term_PPT.pdf).
@@ -36,6 +37,7 @@ The 10 classes to predict are:
 
 - Different combinations of feature sets were used, some of which are shown in Table 1  (**Ugly Duckling Theorem**) many other combinations were tried.
 - Evaluated with different classifiers, model parameters were varied using **Grid Search** to find the best parameters (**No Free Lunch Theorem**).
+- Deep learning methods CNN and ResNet-101 also used for classification and Performace visualised using Class Activation Maps (CAMs). 
 - In PCA, number of components were preserved using **Elbow method over variance of PCA projected data** (Fig. 2).
 
 ## Evaluation Metrics and Results
@@ -48,7 +50,7 @@ Follwing are the results of the project:
                                 Fig 2. Variance of PCA projected over min-max normalized data
 <div align="center"><img src="plots/PCA_variance_graphs.png" height='700px'/></div>
 
-                                Fig 4. Receiver Operating Characteristic (ROC) Curves
+                                Fig 3 Receiver Operating Characteristic (ROC) Curves
                                     a. ROC of PCA reduced data
                                     b. ROC of LDA reduced data
                                     c. ROC of LDA on PCA reduced data
@@ -58,11 +60,31 @@ Follwing are the results of the project:
     <img src="plots/roc_over_lda_over_pca.png" height='225px'/>
 </div>
 
-                    Table 2. Good and Bad features on the basis of Accuracy on Random Forest classifier
-<div align="center"><img src="plots/features_comparison_table.png"/></div>
+        Fig 4. Optimal Parameters of classifiers after grid search
+<div align="center"><img src="plots/optimal_param.png"/></div>
 
-        Table 1. Comparing various classifiers with different feature sets over Accuracy/Recall/Precision/F1 score
-<div align="center"><img src="plots/model_features_comparison_table.png"/></div>
+        Fig 5. Comparing various classifiers with different feature sets over Accuracy/Recall/Precision/F1 score
+                                    a. Results PCA reduced data
+                                    b. Results LDA reduced data
+                                    c. Results ROC of LDA on PCA reduced data
+         
+<div align="center"><img src="plots/results_pca.png"/></div>
+<div align="center"><img src="plots/results_lda.png"/></div>
+<div align="center"><img src="plots/results_lda_over_pca.png"/></div>
+
+
+        Fig 5. CNN architecture used 
+<div align="center"><img src="plots/CNN_model.png"/></div>
+
+
+        Fig 6. Comparing between deep learning classifiers with Accuracy/Recall/Precision/F1 score
+                                    a. CNN
+                                    b. ResNet-101 [Stratery-1 : Retrain only last layer]
+                                    c. ResNet-101 [Stratery-2 : Retrain last few layers]
+<div align="center"><img src="plots/results_deep_learning_classifiers.png"/></div>
+
+Fig 6. ResNet-101 performance measured using Class Activation Maps
+<div align="center"><img src="plots/class_activation_map.png"/></div>
 
 ## Interpretation of Results
 
