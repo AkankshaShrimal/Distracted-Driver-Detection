@@ -61,7 +61,7 @@ Follwing are the results of the project:
 </div>
 
                 Fig 4. Optimal Parameters of classifiers after grid search
-<div align="center"><img src="plots/optimal_param.png"/></div>
+<div align="center"><img src="plots/optimal_param.png" height='180px'/></div>
 
      Fig 5. Comparing various classifiers with different feature sets over Accuracy/Recall/Precision/F1 score
                                     a. Results PCA reduced data
@@ -69,8 +69,8 @@ Follwing are the results of the project:
                                     c. Results ROC of LDA on PCA reduced data
          
 <div align="center"><img src="plots/results_pca.png" height='200px'/></div>
-<div align="center"><img src="plots/results_lda.png"/></div>
-<div align="center"><img src="plots/results_lda_over_pca.png"/></div>
+<div align="center"><img src="plots/results_lda.png" height='200px'/></div>
+<div align="center"><img src="plots/results_lda_over_pca.png" height='200px'/></div>
 
 
                                 Fig 5. CNN architecture 
@@ -81,7 +81,7 @@ Follwing are the results of the project:
                                     a. CNN
                                     b. ResNet-101 [Stratery-1 : Retrain only last layer]
                                     c. ResNet-101 [Stratery-2 : Retrain last few layers]
-<div align="center"><img src="plots/results_deep_learning_classifiers.png"/></div>
+<div align="center"><img src="plots/results_deep_learning_classifiers.png" height='200px'/></div>
 
 
                     Fig 6. ResNet-101 performance measured using Class Activation Maps
