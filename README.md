@@ -33,7 +33,7 @@ The 10 classes to predict are:
 
 ## Algorithm Used
 
-<div align="center"><img src="plots/pipeline.png" /></div>
+<div align="center"><img src="plots/pipeline.jpeg" /></div>
 
 - Different combinations of feature sets were used, some of which are shown in Table 1  (**Ugly Duckling Theorem**) many other combinations were tried.
 - Evaluated with different classifiers, model parameters were varied using **Grid Search** to find the best parameters (**No Free Lunch Theorem**).
@@ -85,7 +85,7 @@ Follwing are the results of the project:
 
 
                     Fig 6. ResNet-101 performance measured using Class Activation Maps
-<div align="center"><img src="plots/class_activation_map.png" height='150px'/></div>
+<div align="center"><img src="plots/class_activation_map.png"/></div>
 
 ## Interpretation of Results
 
